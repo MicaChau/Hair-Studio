@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hairstudio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--banner-->
+    <section id="banner">
+        <img src="images/Screenshot logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair style</h1>
+            <p>Style your hair is style your life</p>
+            <div class="banner-btn">
+                <a href="#"><span></span> Find Out</a>
+                <a href="#"><span></span>Read more</a>
+            </div>
+        </div>
+    </section>
+    <!--end banner-->
+    <!--sideNav-->
+    <section id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Meet us</a></li>
+            </ul>
+        </nav>
+    </section> 
+    <div id="menuBtn">
+        <img src="data:image/png;base64,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" id="menu">
+    </div>
+    <section id="feature">
+        <div class="title-text">
+            <p>Features</p>
+            <h1>Why choose us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experiences Staff</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-shield-shaded"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum posuere scelerisque. Phasellus in finibus sapien. </p>
+                    </div>
+                </div>
+                <h1>Pre booking online</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-check2-square"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum posuere scelerisque. Phasellus in finibus sapien. </p>
+                    </div>
+                </div>
+                <h1>Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-currency-euro"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum posuere scelerisque. Phasellus in finibus sapien. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="https://shopdungcutoc.com/wp-content/uploads/2020/05/barbershop-6.jpg" width="350px">
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provider Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="images/pic-1.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Trim</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-2.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Cut</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-3.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-4.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Dry Shampoo</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What client says</h1>
+        </div>
+        <div class="testtimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-1.png" alt="">
+                    <div class="user-info">
+                        <h4>KEN NORMAN <i class="bi bi-twitter"></i></h4>
+                        <small>@kennorman</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida porttitor urna tincidunt sollicitudin. </p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-2.png" alt="">
+                    <div class="user-info">
+                        <h4>KARIAN NICK <i class="bi bi-twitter"></i></h4>
+                        <small>@kariannick</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida porttitor urna tincidunt sollicitudin. </p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-3.png" alt="">
+                    <div class="user-info">
+                        <h4>DIARA JAMES <i class="bi bi-twitter"></i></h4>
+                        <small>@diarajames</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida porttitor urna tincidunt sollicitudin. </p>
+            </div>
+        </div>
+    </section>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            }else{
+                sideNav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+    </script>
+</body>
+</html>
